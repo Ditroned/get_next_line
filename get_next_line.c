@@ -6,7 +6,7 @@
 /*   By: ppizzo <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 00:03:23 by ppizzo            #+#    #+#             */
-/*   Updated: 2021/09/14 15:24:26 by ppizzo           ###   ########.fr       */
+/*   Updated: 2021/11/01 12:52:01 by ppizzo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char	*ft_select(char	*buf)
 	dest[i] = 0;
 	while (i-- > 0)
 		dest[i] = buf[i];
-	return (dest);
+    return (dest);
 }
 
 char	*ft_select2(char *buf)
